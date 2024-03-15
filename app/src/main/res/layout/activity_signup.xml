@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="10dp"
-        android:text="Chào mừng bạn đã trở lại"
+        android:text="Chào mừng bạn"
         android:textAlignment="textStart"
         android:textSize="15dp"
         android:textColor="@color/sky_blue"
@@ -23,55 +23,49 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Vui lòng đăng nhập để tiếp tục"
+        android:text="Đăng kí tài khoản"
         android:textAlignment="textStart"
         android:textSize="20dp"
+        android:layout_marginBottom="15dp"
         android:textStyle="bold">
+
     </TextView>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/editTextEmail"
-        android:hint="Email"
-
+        android:hint="Nhập username"
+        android:layout_marginBottom="10dp"
         android:inputType="textEmailAddress"/>
 
     <EditText
         android:id="@+id/editTextPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Password"
+        android:hint="Nhập password"
+        android:layout_marginBottom="10dp"
         android:inputType="textPassword" />
-    <CheckBox
-        android:id="@+id/checkbox_remember_password"
-        android:layout_width="wrap_content"
+    <EditText
+        android:id="@+id/editTextConfirmPassword"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="start"
-        android:text="Nhớ mật khẩu" />
-
-    <LinearLayout
-        android:layout_width="wrap_content"
+        android:hint="Nhập lại password"
+        android:layout_marginBottom="10dp"
+        android:inputType="textPassword" />
+    <Button
+        android:id="@+id/buttonSignup"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <Button
-            android:id="@+id/buttonSignup"
-            android:layout_marginTop="20dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Sign up"
-            android:textColor="@color/material_dynamic_tertiary30"
-            android:background="@drawable/button_border_white"
-            android:layout_marginRight="16dp"/>
-
-
-        <Button
-            android:id="@+id/buttonLogin"
-            android:layout_marginTop="20dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Login" />
-    </LinearLayout>
-
+        android:text="Đăng ký" />
+    <Button
+        android:id="@+id/buttonReturn"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Trở về"
+        android:textColor="@color/material_dynamic_tertiary30"
+        android:background="@drawable/button_border_white"/>
 
 
 
