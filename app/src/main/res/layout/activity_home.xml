@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="30dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="QUẢN LÝ NHÂN SỰ"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textColor="@color/green"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="FPOLY SOFTWARE COMPANY"
+        android:textColor="@color/red"
+        android:textSize="15dp"
+        android:textStyle="bold">
+    </TextView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+
+            app:icon="@drawable/ic_home"
+            android:text="Phòng ban"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+            app:icon="@drawable/ic_baseliner"
+            android:layout_marginLeft="10dp"
+            android:text="Nhân viên"/>
+
+
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+        app:icon="@drawable/ic_reply"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Thoát"/>
+
+
+
+
+</LinearLayout>
